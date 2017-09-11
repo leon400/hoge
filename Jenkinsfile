@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('step1') {
       steps {
-        timestamps()
+        sh 'id'
       }
     }
     stage('step2') {
